@@ -60,6 +60,9 @@
 
     .item {
       overflow: hidden;
+      display: grid;
+      grid-template-columns: 1;
+      grid-template-rows: 1;
     }
 
     .item.v2 {
@@ -137,7 +140,6 @@
             
             const html = digits.map(generateHTML).join("");
             gallery.innerHTML = html;
-
   </script>
 </body>
 
