@@ -46,6 +46,16 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-areas: 
+      "la la la la ti ti ti ti"
+      "la la la la ti ti ti ti"
+      "la la la la ti ti ti ti"
+      "la la la la ti ti ti ti"
+    }
+
+    .item3 {
+      grid-column: la-start / ti-end;
+      grid-row-end: la-end;
     }
   </style>
 </body>
